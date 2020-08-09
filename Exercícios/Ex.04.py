@@ -1,6 +1,6 @@
 palavra=input('Digite algo ')
 
-print('O tipo primitivo desse valor é ',type(palavra))
+print('O tipo primitivo desse valor é {}'.format(type(palavra)))
 print('Só tem espaços:', palavra.isspace())
 print('É um número ', palavra.isnumeric())
 print('É alfabético ', palavra.isalpha())
