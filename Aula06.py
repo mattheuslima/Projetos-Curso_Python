@@ -1,0 +1,10 @@
+stri = str(input('Diga seu nome: '))
+n1 = int(input('Diga sua idade: '))
+peso = float(input('Diga seu peso'))
+print('Seus dados: Nome {} , Peso {} , Idade {}'.format(stri, peso, n1))
+
+demais = input('Diga um alfanumerico')
+print(type(demais))
+print(type(stri))
+print(type(peso))
+print(demais.isalpha())
