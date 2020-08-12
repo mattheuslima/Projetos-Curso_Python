@@ -37,9 +37,6 @@ print('Teste: \n quebra de linha ')
 
 #Desafio 5 Fazer programa que leia um número inteiro e mostre na tela o sucessor e o antecessor desse número
 
-print('='*5,'Desafio 1','='*5,'\n Aluno: {:=^8}'.format(nome))
-
-
 #Desafio 6  Crie um algorítimo que leia um número e mostre seu dobro, seu triplo e a raiz quadrada
 
 #Desafio 7 Desenvolva um programa que leia as duas notas de um aluno,calcule e mostre a sua média
