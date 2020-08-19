@@ -1,0 +1,1 @@
+#Leia uma frase, diga quantas vezes aparece  primeira Letra A,qm eu posiçao esá e emque posição apareeu da última.
