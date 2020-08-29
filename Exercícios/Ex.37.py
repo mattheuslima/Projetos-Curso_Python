@@ -1,0 +1,1 @@
+#Escreva um programa que leia um numero inteiro qualquer e peça para escolher qual será a base de conversão: binário,octal ou hexadecimal
