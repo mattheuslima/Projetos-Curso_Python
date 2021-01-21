@@ -36,4 +36,4 @@ user=str(input('Para qual time você torce? ')).strip()
 while tabela.count(user)==0:
     print(f'\nNome do time inválido.\nTente novamente')
     user = str(input('Para qual time você torce? ')).strip()
-print(f'\nO seu time está na {tabela.index(user)}º posição na classificação')
+print(f'\nO seu time está na {tabela.index(user)+1}º posição na classificação')
