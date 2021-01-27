@@ -1,6 +1,6 @@
 '''Faça um programa que jogue par ou ímpar com o computador.
  O jogo só será interrompido quando o jogador perder, mostrando o total de vitórias consecutivas que ele conquistou no final do jogo.'''
-
+# coding: utf-8
 from time import sleep
 from random import randint
 
@@ -28,7 +28,7 @@ while True:
     if result%2==0 and player=='P':
         wins+=1
         print(f'\nVocê venceu. CPU {cpu} + {player_num} Jogador = {result}. Número {"Par" if player=="P" else "Ímpar"} ')
-    elif result%2==1 and player in ('I','Í'):
+    elif result%2==1 and player=='I':
         wins += 1
         print(f'\nVocê venceu. CPU {cpu} + {player_num} Jogador = {result}. Número {"Par" if player=="P" else "Ímpar"} ')
     else:
