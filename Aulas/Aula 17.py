@@ -8,7 +8,7 @@ Existem 2 métodos para adicionar um elemento a uma lista:
 
 ".append": Com ele você adiciona um elemento sempre ao fim da lista. Ex.: lista.append('Carro')
 
-".insert": Com ele você consegue especificar em que posição da lista você quer adicionar tal elemento. Ex.:lista.inset(1,'Carro')
+".insert": Com ele você consegue especificar em que posição da lista você quer adicionar tal elemento. Ex.:lista.insert(1,'Carro')
 
 Para apagar elementos, existem 3 forma:
 

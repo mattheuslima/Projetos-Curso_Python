@@ -14,14 +14,18 @@ menor=min(lista)
 
 print(f'\nA lista á composta por: ')
 for c,v in enumerate(lista):
-    print(f'Na posição {c} = {v}')
+    print(f'Na posição {c+1} = {v}')
+print(f'\nOrdenando a lista de forma crescente: ')
+lista.sort()
+for c,v in enumerate(lista):
+    print(f'Na posição {c+1} = {v}')
 print(f'\nO maior valor digitado foi {maior} e foi encontrado na(s) posição(ões): ',end='')
 
 for c,v in enumerate(lista):
     if maior==v:
-     print(f'{c}... ',end='')
+     print(f'{c+1}... ',end='')
 print(f'\nO menor valor digitado foi {menor} e foi encontrado na(s) posição(ões): ',end='')
 for c,v in enumerate(lista):
     if menor==v:
-     print(f'{c}... ',end='')
+     print(f'{c+1}... ',end='')
 
