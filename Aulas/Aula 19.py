@@ -1,6 +1,6 @@
 '''Dicionários'''
 #Dicionários podem ser declarados através de {} ou dict().
-familia=[]
+
 #A estrutura deles é Chave x Valor, onde a chave é sepada do valor através de :
 dados={'Nome':'Pedro','Idade':'25'}
 
@@ -35,6 +35,7 @@ for k,v in dados.items():
 print()
 #Nós podemos juntar listas,tuplas e dicionários. Por exemplo, se eu criar a lista família, os elementos dessa lista podem ser um dicionário.
 #Para fazer isso, os dícionários tem um método próprio chamado copy
+familia=[]
 print(dados)
 familia.append(dados.copy())
 print(familia)
@@ -48,6 +49,7 @@ print(dados)
 for pos,c in enumerate(familia):
     print(f'\n{familia[pos]["Nome"]} tem {familia[pos]["Idade"]} anos e é do sexo {familia[pos]["Sexo"]}.')
     print(f'{c}\n')#Isso mostra o elemento da lista correspondente a posição pos.O elemento no caso, é o dícionário completo de Pedro.
+
 #Uma outra forma de fazer a mesma coisa seria:
 for e in familia:
     for k,v in e.items():#Se você quiser só o valor ou só as chaves, basta usar o e.keys() ou e.values() e colocar um vetor só
