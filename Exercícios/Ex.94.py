@@ -26,7 +26,7 @@ avg_age=round((age/qtd_cadastros),1)
 mulheres=[]
 for c in range(0,qtd_cadastros):
     if DB[c]["sex"]=='F':
-        mulheres.append(DB[c]["nome"])
+        mulheres.append(DB[c]["name"])
 '''Preciso criar um vetor que identifique pessoas acima da média e coloque o dict em uma lista.'''
 over_age=[]
 for c in range(0,qtd_cadastros):
@@ -44,7 +44,5 @@ for c in range (0,len(mulheres)):
         print(f'{mulheres[c]},',end="")
 print(f'\nD) A lista de pessoas acima da média de idade é : ')
 for c in range(0,len(over_age)):
-    print(f'\nNome= {over_age[c]["nome"]} ; Sexo={over_age[c]["sex"]}; Idade={over_age[c]["age"]} ')
+    print(f'\nNome= {over_age[c]["name"]} ; Sexo={over_age[c]["sex"]}; Idade={over_age[c]["age"]} ')
 
-for p in DB:
-    print(p)
