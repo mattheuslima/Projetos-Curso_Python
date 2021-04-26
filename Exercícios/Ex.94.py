@@ -2,7 +2,7 @@ dados= {}
 DB=[]
 #cadastro das pessoas
 while True:
-    dados["nome"]=str(input("\nDigite o nome da pessoa: "))
+    dados["name"]=str(input("\nDigite o nome da pessoa: "))
     while True:
         dados["sex"]=str(input("Digite o sexo da pessoa [M/F]: ")).upper()[0]
         if dados["sex"] not in ('MF'):
@@ -46,3 +46,5 @@ print(f'\nD) A lista de pessoas acima da média de idade é : ')
 for c in range(0,len(over_age)):
     print(f'\nNome= {over_age[c]["nome"]} ; Sexo={over_age[c]["sex"]}; Idade={over_age[c]["age"]} ')
 
+for p in DB:
+    print(p)
