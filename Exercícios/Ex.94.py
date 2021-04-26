@@ -46,3 +46,5 @@ print(f'\nD) A lista de pessoas acima da média de idade é : ')
 for c in range(0,len(over_age)):
     print(f'\nNome= {over_age[c]["name"]} ; Sexo={over_age[c]["sex"]}; Idade={over_age[c]["age"]} ')
 
+'''Na utilização do For,eu abusei do uso do range onde deveria utilizar for c in Lista. 
+E ai, acessar o item do dicionário através da variável + nome da chave.'''
