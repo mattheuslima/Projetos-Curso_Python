@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 .idea/workspace.xml
 *.xml
+.idea/Projetos-Curso_Python.iml
+.idea/Projetos-Curso_Python.iml
