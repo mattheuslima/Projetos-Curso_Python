@@ -20,3 +20,4 @@ def fatorial(n,show=False):
 #main programm
 n=int(input('Digite um número: '))
 print(fatorial(n))
+print(fatorial.__doc__)
